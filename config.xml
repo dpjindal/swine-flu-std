@@ -1,0 +1,59 @@
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="co.in.advocatejindal.SwineFlu_std" version="1.0.0">
+  <name>Swine Flu</name>
+  <description>Know all About Swine Flue-What, Why, Precaution, Treatment</description>
+  <author href="http://advocatejindal.co.in" email="jindalinformatics@gmail.com">Jindal Informatics Team</author>
+  <content src="index.html"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="android-minSdkVersion" value="14"/>
+  <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1"/>
+ 
+  <plugin name="cordova-plugin-console" source="npm" spec="~1.0.2"/>
+  
+  <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1"/>
+  <plugin name="cordova-plugin-device-motion" source="npm" spec="~1.2.0"/>
+  <plugin name="cordova-plugin-device-orientation" source="npm" spec="~1.0.2"/>
+  <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.0"/>
+  <plugin name="cordova-plugin-file" source="npm" spec="~4.1.1"/>
+  <plugin name="cordova-plugin-file-transfer" source="npm" spec="~1.5.0"/>
+  
+  <plugin name="cordova-plugin-inappbrowser" source="npm" spec="~1.3.0"/>
+  <plugin name="cordova-plugin-media" source="npm" spec="~2.2.0"/>
+ 
+  <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1"/>
+  <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2"/>
+ 
+  <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
+  <icon src="icon.png"/>
+  <platform name="android">
+    <icon src="Images/logo.png" density="ldpi"/>
+    <icon src="Images/logo.png" density="mdpi"/>
+    <icon src="Images/logo.png" density="hdpi"/>
+    <icon src="Images/logo.png" density="xhdpi"/>
+    <icon src="Images/logo.png" density="xxhdpi"/>
+    <icon src="Images/logo.png" density="xxxhdpi"/>
+    <splash src="Images/logo.png" density="land-ldpi"/>
+    <splash src="Images/logo.png" density="land-mdpi"/>
+    <splash src="Images/logo.png" density="land-hdpi"/>
+    <splash src="Images/logo.png" density="land-xhdpi"/>
+    <splash src="Images/logo.png" density="land-xxhdpi"/>
+    <splash src="Images/logo.png" density="land-xxxhdpi"/>
+    <splash src="Images/logo.png" density="port-ldpi"/>
+    <splash src="Images/logo.png" density="port-mdpi"/>
+    <splash src="Images/logo.png" density="port-hdpi"/>
+    <splash src="Images/logo.png" density="port-xhdpi"/>
+    <splash src="Images/logo.png" density="port-xxhdpi"/>
+    <splash src="Images/logo.png" density="port-xxxhdpi"/>
+  </platform>
+ 
+  <access origin="*"/>
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-intent href="tel:*"/>
+  <allow-intent href="sms:*"/>
+  <allow-intent href="mailto:*"/>
+  <allow-intent href="geo:*"/>
+  <platform name="android">
+    <allow-intent href="market:*"/>
+  </platform>
+ 
+</widget>
