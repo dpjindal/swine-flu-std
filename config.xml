@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="co.in.advocatejindal.SwineFlu_std" version="1.0.0">
   <name>Swine Flu</name>
-  <description>Know all About Swine Flue-What, Why, Precaution, Treatment</description>
+  <description>Know About Swine Flue-What, Advance Version Available</description>
   <author href="http://advocatejindal.co.in" email="jindalinformatics@gmail.com">Jindal Informatics Team</author>
   <content src="index.html"/>
   <preference name="DisallowOverscroll" value="true"/>
